@@ -1,0 +1,43 @@
+#Defines for how many seconds will the mobs be flashed.
+#Range: 1 ~ 60
+"Flash Grenade duration" = 5
+#Defines radius in blocks of flash grenade area of effect.
+#Range: 4 ~ 64
+"Flash Grenade blast radius" = 16
+#Defines for how many seconds will the mobs be frozen
+#Range: 1 ~ 60
+"Freeze Grenade duration" = 30
+#Defines radius in blocks of freeze grenade area of effect
+#Range: 4 ~ 64
+"Freeze Grenade blast radius" = 16
+#Defines for how many seconds will the mobs be ignited
+#Range: 1 ~ 60
+"Ignite Grenade duration" = 5
+#Defines radius in blocks of ignite grenade area of effect
+#Range: 4 ~ 64
+"Ignite Grenade blast radius" = 16
+#Defines for how many seconds will the mobs be poisoned.
+#Range: 1 ~ 60
+"Poison Grenade duration" = 5
+#Defines radius in blocks of poison grenade area of effect.
+#Range: 4 ~ 64
+"Poison Grenade blast radius" = 16
+#Defines for how many seconds will the mobs float in air.
+#Range: 1 ~ 60
+"Levitate Grenade duration" = 5
+#Defines radius in blocks of levitate grenade area of effect.
+#Range: 4 ~ 64
+"Levitate Grenade blast radius" = 16
+#Defines how many skulls does Infernal Scepter shoot.
+#Range: 1 ~ 50
+"Infernal Scepter Skull Shooted" = 4
+
+["Evokers Tome Cooldown"]
+	#Defines cooldown in ticks of evokers tome use.
+	#Range: 0 ~ 300
+	" 20 ticks is 1 second" = 40
+
+["Skullcaster Cooldown"]
+	#Defines cooldown in ticks of infernal sce[ter use.
+	#Range: 0 ~ 300
+	" 20 ticks is 1 second" = 40

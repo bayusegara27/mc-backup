@@ -1,0 +1,10 @@
+[30Apr2025 05:47:32.984] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nakumiayumu[/192.168.0.201:52082] logged in with entity id 163314 at (274.1141327348371, 83.0, 241.89701014458777)
+[30Apr2025 05:47:32.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nakumiayumu joined the game
+[30Apr2025 05:47:32.996] [Server thread/INFO] [Resource Config API/]: Syncing Server Configs with Client
+[30Apr2025 05:47:32.997] [Server thread/INFO] [Resource Config API/]: Sending data for Config 'resource_backpacks:common/backpacks'
+[30Apr2025 05:47:33.001] [Server thread/INFO] [Resource Config API/]: Sending data for Config 'resource_backpacks:common/chest_loot'
+[30Apr2025 05:47:33.013] [Server thread/INFO] [Resource Config API/]: Sending data for Config 'resource_backpacks:common/entity_config'
+[30Apr2025 05:48:25.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <nakumiayumu> aaa
+[30Apr2025 05:49:28.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <nakumiayumu> aAAAAAA
+[30Apr2025 05:49:42.138] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nakumiayumu lost connection: Disconnected
+[30Apr2025 05:49:42.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nakumiayumu left the game

@@ -1,0 +1,143 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2025-04-27 12:46:43
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at TRANSFORMER/net.minecraftforge.forge@52.0.40/net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:49) ~[forge-1.21.1-52.0.40-universal.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@52.0.40/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.21.1-52.0.40-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:129) ~[forge-1.21.1-52.0.40-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.1-52.0.40/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:85) ~[fmlloader-1.21.1-52.0.40.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.1-52.0.40/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:69) ~[fmlloader-1.21.1-52.0.40.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.3.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.1-52.0.40-shim.jar:2.1.8]
+Transformer Audit:
+  net.minecraft.server.Main
+    REASON: classloading
+  net.minecraftforge.logging.CrashReportExtender
+    REASON: classloading
+  net.minecraftforge.server.loading.ServerModLoader
+    REASON: classloading
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at TRANSFORMER/net.minecraftforge.forge@52.0.40/net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:52) ~[forge-1.21.1-52.0.40-universal.jar!/:?]
+Transformer Audit:
+  net.minecraftforge.logging.CrashReportExtender
+    REASON: classloading
+-- MOD alexis_food --
+Details:
+	Mod File: /crafty/servers/e3e4e309-9086-4e75-9537-87a0db485fa3/mods/alexis_food-0.9.9.8v9.1-neoforge-1.21.1.jar
+	Failure message: Mod alexis_food requires minecraft 1.20.1
+		Currently, minecraft is 1.21.1
+	Mod Version: 0.9.9.89.1
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+Stacktrace:
+	at TRANSFORMER/net.minecraftforge.forge@52.0.40/net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:52) ~[forge-1.21.1-52.0.40-universal.jar:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at TRANSFORMER/net.minecraftforge.forge@52.0.40/net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:50) ~[forge-1.21.1-52.0.40-universal.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@52.0.40/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.21.1-52.0.40-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:129) ~[forge-1.21.1-52.0.40-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.1-52.0.40/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:85) ~[fmlloader-1.21.1-52.0.40.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.1-52.0.40/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:69) ~[fmlloader-1.21.1-52.0.40.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.3/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.3.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.1-52.0.40-shim.jar:2.1.8]
+Transformer Audit:
+  net.minecraft.server.Main
+    REASON: classloading
+  net.minecraftforge.logging.CrashReportExtender
+    REASON: classloading
+  net.minecraftforge.server.loading.ServerModLoader
+    REASON: classloading
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 5.15.0-138-generic
+	Java Version: 21.0.5, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 3866188800 bytes (3687 MiB) / 4194304000 bytes (4000 MiB) up to 8388608000 bytes (8000 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz
+	Identifier: Intel64 Family 6 Model 94 Stepping 3
+	Microarchitecture: Skylake (Client)
+	Frequency (GHz): 2.70
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 12034.12
+	Virtual memory used (MiB): 2849.32
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 1.75
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 205303.66, total: 238220.34
+	Space in storage for workdir (MiB): available: 205303.66, total: 238220.34
+	JVM Flags: 2 total; -Xms4000M -Xmx8000M
+	ModLauncher: 10.2.3
+	ModLauncher launch target: forge_server
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ object_holder_definalize PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ eventbus PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.7.0
+		javafml@52.0.40
+		minecraft@1.0
+		lowcodefml@52
+	Mod List: 
+		forge-1.21.1-52.0.40-server.jar                   |Minecraft                     |minecraft                     |1.21.1              |NONE      |Manifest: NOSIGNATURE
+		forge-1.21.1-52.0.40-universal.jar                |Forge                         |forge                         |52.0.40             |NONE      |Manifest: NOSIGNATURE
